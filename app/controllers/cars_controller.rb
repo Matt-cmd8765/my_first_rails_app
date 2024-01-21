@@ -19,6 +19,8 @@ class CarsController < ApplicationController
   def edit
   end
 
+  #This is a test comment
+
   # POST /cars or /cars.json
   def create
     @car = Car.new(car_params)
